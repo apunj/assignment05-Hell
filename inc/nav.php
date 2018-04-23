@@ -9,13 +9,13 @@
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link <?php if($page=='yidi'){echo 'highlight';}?>" href="yidi.php">Yidi</a>
+                <a class="nav-link <?php if($page=='why'){echo 'highlight';}?>" href="why.php">Why Dogs</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if($page=='yuanzhuo'){echo 'highlight';}?>" href="yuanzhuo.php">Yuanzhuo</a>
+                <a class="nav-link <?php if($page=='what'){echo 'highlight';}?>" href="what.php">What dogs need</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?php if($page=='zhenghao'){echo 'highlight';}?>" href="zhenghao.php">Zhenghao</a>
+                <a class="nav-link <?php if($page=='signUp'){echo 'highlight';}?>" href="signUp.php">Sign up Today!</a>
             </li>
         </ul>
     </div>
