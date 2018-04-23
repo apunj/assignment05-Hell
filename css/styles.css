@@ -47,11 +47,12 @@ background-position: 50% 50%;
 
 /* Paragraph for Parallax Section */
 .paral p {
-font-size: 24px;
-color:#f5f5f5;
+font-size: 14px;
+color:rgb(255, 255, 255);
+text-shadow: 3px 3px 5px black;
 text-align: center;
-line-height: 60px;
-background-color: rgba(0, 0, 0, 0.75);
+
+/*background-color: rgba(0, 0, 0, 0.75); */
 }
 
 /* Heading for Parallax Section */
