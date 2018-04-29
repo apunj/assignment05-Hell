@@ -6,6 +6,9 @@
           <li class="nav-item">
               <a class="nav-link <?php if($page=='home'){echo 'highlight';}?>" href="index.php">Home</a>
           </li>
+          <li class="nav-item">
+              <a class="nav-link <?php if($page=='login'){echo 'highlight';}?>" href="login.php">Login</a>
+          </li>
         </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
