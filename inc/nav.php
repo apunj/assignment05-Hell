@@ -1,4 +1,8 @@
 <!-- example 1 - using absolute position for center -->
+<?php if(isset($_GET["page"])) {
+    $page = $_GET["page"];
+}?>
+
 <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-primary">
 
     <div class="navbar-collapse">
