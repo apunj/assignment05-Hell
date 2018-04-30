@@ -1,6 +1,11 @@
 <?php include 'inc/html-top.php';?>
 
-<?php include 'inc/nav.php';?>
+<?
+  include 'inc/html-top.php';
+  global $page;
+  $page = 'signUp';
+  php include 'inc/nav.php';
+?>
 
 <p> Sign up for the newsletter below! </p>
 
@@ -18,4 +23,4 @@
 
 
 
-<?php include 'inc/html-bottom/php';?>
+<?php include 'inc/html-bottom.php';?>

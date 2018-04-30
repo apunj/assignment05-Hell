@@ -1,6 +1,11 @@
 <?php include 'inc/html-top.php';?>
 
-<?php include 'inc/nav.php';?>
+<?
+  include 'inc/html-top.php';
+  global $page;
+  $page = 'home';
+  php include 'inc/nav.php';
+?>
 
 <!-- First Parallax Section -->
 <div class="jumbotron paral paralsec">

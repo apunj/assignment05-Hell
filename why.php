@@ -1,6 +1,11 @@
 <?php include 'inc/html-top.php';?>
 
-<?php include 'inc/nav.php';?>
+<?
+  include 'inc/html-top.php';
+  global $page;
+  $page = 'why';
+  php include 'inc/nav.php';
+?>
 
 <div class="jumbotron paral paralsec1">
 <h1 class="display-3">Why Dogs?</h1>
